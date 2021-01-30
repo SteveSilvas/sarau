@@ -1,0 +1,150 @@
+*{margin: 0; padding: 0;}
+.carimbo{
+    height: 50px;
+    width: 100%;
+}
+.logop{
+    height: 50px;
+    width: 50px;
+    margin-left: 10px;
+    margin-top: 10px;  
+    float: left;
+}
+.logop img{
+    height: 60px;
+    width: 60px;
+    margin-left: 10px;
+    margin-top: 0px;
+ 
+}
+.tituloprincipal{
+    color: Black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 10px;
+    height: 60px;
+    width: 60%;
+    margin-left: 100pt;
+    background-color: #A37ADE;
+    float: left;
+   }
+
+.logar{
+    border: solid black;
+    background-color:#94A1F5(133, 195, 39, 0.767);
+    
+    margin-left: 560pt;
+    margin-top: 10px;
+    height: 60px;
+    width: 60px;
+    font-size: small;
+}
+.logar a{
+    text-align: left;
+    
+    line-height: 10px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;  
+}
+ 
+body{
+   background-color:#F9DEFA; 
+}
+.menubarra {
+    list-style: none;
+    font-size: 12px;
+    float: left;
+    margin-top: 10px;
+    width: 100%;
+    height: 83pt;
+    background-color: #A37ADE;
+}
+.menubarra li{
+   border-radius: 100%;
+   height: 70pt;
+   width: 70pt;
+   background-color: #DB75DB;
+   text-align: center;
+   float: left;
+   position: relative;
+   margin-top: 0px;
+    
+}
+.menubarra img{
+    border-radius: 100%;
+    height: 70pt;
+    width: 70pt;
+}
+.menubarra li a {
+   display: block;
+   margin-top: 0pt;
+
+  
+}
+.menubarra li a:hover{
+    border: 1.3px solid black;
+    -moz-box-shadow:0 3px 10px 0 #CCC;
+    -webkit-box-shadow:0 3px 10px 0 #ccc;
+    text-shadow:0px 0px 5px #fff;
+
+}
+.menubarra li ul{
+    position: absolute;
+    display: none;
+    position: absolute;
+    top: 25px;
+    left: 0px;
+}
+.menubarra li:hover ul{
+    display: block;
+}
+.menubarra li ul li{
+    border:2px solid #c0c0c0;
+    display:table-row;
+    top: 100px;
+    width:100px;
+    height: 100px;
+    text-align: center;
+    
+    }
+  
+
+
+    .corpo{
+        margin-top: 100px;
+    }
+    .centrop1{
+        margin-top: 10px;
+        width: 60%;
+        height: 400pt;
+        float: left;
+        background-color: #A37ADE;
+        text-align: center;
+         margin-left: 145pt;
+        flex-direction: column;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .dir1{
+        margin-top: 10px;
+        background-color: #94A1F5;
+        float: right;
+        height: 400pt;
+        width: 15.3%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .dir1 h2{
+        font-size: small;
+    }
+    .esq1{
+        margin-top: 10px;
+        background-color: #94A1F5;
+        float: left; 
+        margin-top: -400pt;
+        margin-left: 0px;
+        padding-left: 10px;
+        padding-right: 10px;
+        height: 400pt;
+        width: 130pt;
+
+    }
+   
